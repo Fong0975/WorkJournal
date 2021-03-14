@@ -1,0 +1,76 @@
+
+/*contactGroup*/
+.mainContent .session.contactGroup{
+	color: #FFF;
+	text-align: left;
+}
+
+.mainContent .session.contactGroup div{
+	text-align: left;
+}
+
+.mainContent .session.contactGroup{
+	padding: 15px 0px;
+
+	background-color: #FFF;
+	border-radius: 10px;
+	color: #4c4c4c;
+}
+
+.mainContent .session.contactGroup.leave{
+	background-color: #9c9c9c;
+}
+
+.mainContent .session.contactGroup .picture{
+	width: 150px;
+}
+
+.mainContent .session.contactGroup .picture img{
+	width: 140px;
+	border-radius: 70px;
+}
+
+.mainContent .session.contactGroup .content div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.mainContent .session.contactGroup .content .jobTitle{
+	font-size: 18pt;
+}
+
+.mainContent .session.contactGroup .content .name{
+	padding-left: 30px;
+	font-size: 25pt;
+	font-weight: bold;
+}
+
+.mainContent .session.contactGroup .content .phone{
+	padding-left: 30px;
+	font-size: 22pt;
+}
+
+.mainContent .session.contactGroup .qr{
+	background-color: #ffb039;
+	width: 150px;
+	
+	color: #FFF;
+	font-size: 40pt;
+}
+
+.mainContent .session.contactGroup .qr a{
+	color: #FFF;
+}
+
+.mainContent .session.contactGroup .call{
+	background-color: #d16f96;
+	width: 150px;
+	
+	color: #FFF;
+	font-size: 40pt;
+}
+
+.mainContent .session.contactGroup .call a{
+	color: #FFF;
+}
+

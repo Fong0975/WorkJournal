@@ -1,0 +1,90 @@
+.mainContent .session{
+  /*Style*/
+  background-color: transparent;
+  color: #FFF;
+}
+
+
+
+/*header*/
+.profile{
+	width: 40%;
+	border-radius: 50%;
+}
+
+.mainContent .session.header{
+	color: #FFF;
+}
+
+.mainContent .session.header .title{
+	margin-top: 15px;
+
+	color: #FFF;
+	font-size: 35pt;
+	font-weight: bold;
+}
+
+.mainContent .session.header .subTitle{
+	margin-top: 20px;
+
+	color: #FFF;
+	font-size: 30pt;
+}
+
+.mainContent .session.header .text{
+	color: #FFF;
+	font-size: 25pt;
+}
+
+/*settingGroup*/
+.mainContent .session.settingGroup{
+	color: #FFF;
+	text-align: left;
+}
+
+.mainContent .session.settingGroup div{
+	text-align: left;
+}
+
+.mainContent .session.settingGroup .title{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: left;
+	margin-bottom: 25px;
+
+	/*style*/
+	border-bottom: 1px solid #4c4c4c;
+
+	/*font*/
+	color: #FFF;
+	font-size: 30pt;
+	font-weight: bold;
+}
+
+.mainContent .session.settingGroup .item{
+	text-align: left;
+	padding-left: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	color: #FFF;
+	font-size: 25pt;
+}
+
+.mainContent .session.settingGroup .item .title{
+	text-align: left;
+
+	/*style*/
+	border-bottom: none;
+
+	/*font*/
+	color: #FFF;
+	font-size: 25pt;
+}
+
+.mainContent .session.settingGroup .item .content{
+	text-align: right;
+
+	color: #acacac;
+	font-size: 20pt;
+}

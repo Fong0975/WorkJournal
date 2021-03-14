@@ -1,0 +1,106 @@
+
+/*ticket*/
+.couponGroup table{
+	border-collapse:collapse;
+	border-spacing: 0px;
+}
+
+.ticket_HF{
+	background-color: #fa8982;
+	border: none;
+}
+
+.ticket_HF_disable{
+	background-color: #6c6c6c;
+	border: none;
+}
+
+.ticket_HF td{
+	padding: 10px;
+}
+
+.ticket_HF .topTitle, .ticket_HF_disable .topTitle{
+	text-align: left;
+	font-size: 16pt;
+}
+
+.ticket_content{
+	background-color: #FFF;
+	border: none;
+}
+
+.ticket_content td{
+	/*padding: 70px 20px;*/
+}
+
+.ticket_mainColumn{
+	border:none; 
+	width: 60%;
+}
+
+.ticket_mainColumn .title{
+	padding-top: 10px;
+	padding-left: 20px;
+	text-align: left;
+	font-weight: normal !important;
+	font-size: 22pt !important;
+}
+
+.ticket_mainColumn .serial{
+	font-size: 28pt;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.ticket_mainColumn .timeline{
+	margin-top: 30px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+
+	text-align: right;
+	font-size: 14pt;
+}
+
+.ticket_subColumn{
+	border:none; 
+	border-left: 1px dashed #9c9c9c;
+	padding: 10px 5px;
+
+	text-align: left;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+/*button*/
+button {
+    display: inline-block;
+    border: none;
+    padding: 10px 25px;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: none;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+

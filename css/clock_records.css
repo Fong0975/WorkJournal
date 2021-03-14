@@ -1,0 +1,129 @@
+input[type="date"]{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: none;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    margin:0 10px;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid #acacac;
+    border-radius: 0px;
+    outline: none;
+
+    background-color: transparent;
+    color: #ececec;
+} 
+
+table, tr, td{
+    color: #FFF;
+    font-size: 30px;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+
+button{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    width: 100%;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    font-size: 24px;
+
+    background-color: #DDDDDD;
+    border:none;
+    border-radius: 20px;
+}
+
+input::-webkit-outer-spin-button, /* Removes arrows */
+input::-webkit-inner-spin-button, /* Removes arrows */
+input::-webkit-clear-button { /* Removes blue cross */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* record-timeline */
+table.timeline{
+    padding: 50px 150px;
+}
+
+table.timeline td{
+    line-height: 90px;
+    padding: 0px;
+}
+
+.record_time{
+    width: 120px;
+    font-weight: bold;  
+
+    position:relative;
+}
+
+.record_time div{
+    margin: 15px;
+    
+    border-radius: 45px;
+}
+
+.record_time.start div, .record_time.end div{
+    background-color: #d35400;
+}
+
+.record_time.start{
+    margin-top: 90px;
+}
+
+.record_time.middle div{
+    background-color: #e67e22;
+}
+.record_time .line {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    margin:0;
+    transform: translate(-50%);
+
+    border-left: 6px solid #FFF;
+}
+
+.record_time.middle .line{
+    top: -3px;
+    bottom: 0;
+    left: 50%;
+    height:106%;
+}
+
+.record_time.start .line{
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    height:52%;
+}
+
+.record_time.end .line{
+    top: -3px;
+    bottom: 50%;
+    left: 50%;
+    height:52%;
+}
+
+table.timeline td.record_text{
+    text-align: left;
+    padding-left: 90px ;
+}
+
+
+

@@ -1,0 +1,29 @@
+/* ----------- Add-Form  ----------- */
+td{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.addForm_Title{
+	width: 20%;
+}
+
+::placeholder {
+  color: #7c7c7c;
+}
+
+.groupTitle{
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #4c4c4c;
+
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.div_checkOption{
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	padding-left: 20px;
+}

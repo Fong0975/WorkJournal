@@ -1,0 +1,452 @@
+/* ---------- statistics ---------- */
+.statistics{
+    color: #FFF;
+}
+
+.statistics td{
+  padding: 20px 5px;
+
+  border-spacing: 0px;
+}
+
+.statisticsTitle_large{
+  font-size: 25pt;
+}
+
+.statisticsContent_large{
+  font-size: 20pt !important;
+  color: #cccccc;
+
+  text-align: left;
+}
+
+.statisticsTitle_middle{
+  font-size: 18pt;
+}
+
+.statisticsContent_middle{
+  font-size: 14pt !important;
+  color: #cccccc;
+
+  text-align: left;
+}
+
+.statisticsTitle_small{
+  width: 15%;
+  margin: 0px;
+
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.statisticsTitle_small i{
+  display: block;
+  font-size: 18pt;
+  margin: 2px 0px;
+}
+
+.statisticsContent_small{
+  width: 18%;
+  font-size: 18pt !important;
+  color: #acacac;
+
+  text-align: left;
+}
+
+.statisticsContent_mini{
+  font-size: 10pt !important;
+}
+
+td.bordered {
+    /*border-bottom: 1px solid #acacac;*/
+    line-height: 1px;
+    padding: 3px 0px !important;
+    margin-bottom: 6px;
+}
+
+/* ---------- calendar ---------- */
+.calendar td{
+  /*style*/
+  background-color: #ececec;
+  padding: 10px;
+  vertical-align: top;
+  text-align: left;
+  overflow-x: hidden;
+  width: 14.285% !important;
+
+  /*font*/
+
+}
+
+.calendar td .calendar_date a{
+  /*font*/
+  color: #000;
+  font-size: 20pt;
+}
+
+.calendar td .calendar_date{
+  display: inline-block;
+  padding: 1px 5px 5px 5px;
+}
+
+.calendar td.sDay .calendar_date{
+  background-color: #3c3c3c;
+}
+
+.calendar td.sDay .calendar_date a{
+  color: #FFF;
+}
+
+
+.calendar td .session{
+  background-color: transparent;
+  padding: 0px;
+}
+
+
+.calendar td .session .title{
+  /*font*/
+  font-size: 12pt;
+  color: #6c6c6c;
+}
+
+.calendar td.sDay .session .title{
+
+  /*font*/
+  font-weight: bolder;
+  color: #2c2c2c;
+}
+
+
+.calendar td .session .content{
+  /*style*/
+  padding-left: 10px;
+
+  /*font*/
+  font-size: 10pt;
+  color: #8c8c8c;
+}
+
+.calendar td.sDay .session .content{
+  color: #4c4c4c;
+}
+
+
+.calendar td .money{
+  /*style*/
+  width: 100%;
+  margin: 20px 0px 8px 0px;
+
+  /*font*/
+  text-align: center;
+  text-decoration: underline;
+  color: #7c7c7c;
+}
+
+.calendar td.sDay .money{
+  color: #4c4c4c;
+}
+
+
+/* ---------- clockOption ---------- */
+.clockOptionPanel button{
+  width: 100%;
+  box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px 40px;
+
+  font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif !important;
+  font-size: 25pt !important;
+  font-weight: bolder;
+
+  border:none;
+  box-shadow: none;
+  border-radius: 15px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.btDarkRed{
+  background-color: #ff6b6b;
+}
+
+.btLightRed{
+  background-color: #ff9c9c;
+}
+
+.btCancel{
+  margin-top: 50px !important;
+  border: 6px solid #e03838 !important;
+}
+
+
+/* ---------- informationBox ---------- */
+.informationBox{
+  /*Position*/
+  position: fixed;
+  top:10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 90%;
+
+  border-radius: 25px;
+  background-color: #FFF;
+  opacity: 0.97;
+
+  padding: 30px 30px 50px 30px;
+  overflow-y: scroll;
+}
+
+.informationBox_header{
+  border-bottom: 1px solid #9c9c9c;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+.informationBox_header .header_title{
+  text-align: left;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.informationBox_header .header_edit{
+  width: 150px;
+    
+  text-align: right;
+  font-size: 25pt;
+}
+
+.informationBox_header .header_edit a{
+  color: #5c5c5c;
+  text-decoration: none;
+}
+
+.informationBox_session{
+  margin: 20px 30px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.informationBox_session .header_title{
+  text-align: left;
+  font-size: 23pt;
+  font-weight: bold;
+
+  color: #3c3c3c;
+}
+
+.informationBox_session .header_edit{
+  width: 120px;
+    
+  text-align: right;
+  font-size: 16pt;
+}
+
+.informationBox_session .header_edit a{
+  color: #6c6c6c;
+}
+
+
+.informationBox_session .content{
+  margin: 40px 20px 20px 0px;
+
+  font-size: 20pt;
+  color: #4c4c4c;
+}
+
+.informationBox_session .content td{
+  padding-bottom: 25px;
+}
+
+.informationBox_session .content .content_title{
+  width: 250px;
+  text-align: left;
+}
+
+.informationBox_session .content .content_value{
+  text-align: left;
+
+  font-size: 16pt;
+  color: #6c6c6c;
+}
+
+.infomationPart_title{
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 15px !important;
+  padding-left: 10px;
+
+  font-weight: bold;
+  color: #5c5c5c;
+}
+
+.infomationPart_top{
+  border-top: 1px dashed #c9c9c9;
+}
+
+.infomationPart_bottom{
+  border-bottom: 1px dashed #c9c9c9;
+}
+
+
+/* ---------- Other Function ---------- */
+.session .header{
+  margin: 0px 0px 15px 0px;
+  display: inline-block;
+  width: 100%;
+
+  border-bottom: 1.5px solid #7c7c7c;
+}
+
+.session .header .title{
+  font-size: 32pt;
+  font-weight: bold;
+  text-align: center;
+
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.session .header .subscript{
+  font-size: 20pt;
+  text-align: center;
+
+  padding: 0px;
+  margin-top: 0px;
+
+  color: #9c9c9c;
+}
+
+.otherFunction .button{
+  text-align: center; 
+  padding: 30px 20px;
+}
+
+.otherFunction hr{
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+
+.tableTitle-backgroundColor{
+  background-color: #4c4c4c; 
+  color: #FFF;
+}
+
+.tableTitle-backgroundColor a{
+  background-color: #4c4c4c; 
+  color: #FFF;
+  text-decoration:none;
+}
+
+.tableTitle-backgroundColor_selected{
+  background-color: #FFF; 
+  color: #4c4c4c;
+}
+.tableTitleButton-input{
+    border: none;
+    font-size: 8px;
+    color: #FFF;
+    text-align: center;
+    width: auto;
+    padding: 0px;
+    margin: 5px auto 0px auto;
+    display: block;
+    max-width: 50px;
+}
+
+.tableTitle_weekday{
+  font-size: 20px; 
+  width: 90px; 
+
+
+  border-right: 3px solid #4c4c4c;
+  color: #8c8c8c; 
+}
+
+.tableTitle_date{
+  font-size: 30px;
+  text-align: left; 
+  font-weight: bold;
+}
+
+.tableTitle_date a{
+  color: #000;
+  text-decoration:none;
+}
+
+.tableTitle_salary{
+  font-size: 30px;
+  text-align: right; 
+
+  color: #444;
+}
+
+.tableSubHeader{
+  text-align: left;
+  font-size:24px; 
+  font-weight: bold;  
+  padding-left: 15px;
+
+  color: #333;
+}
+
+.tableSubTitle{
+  text-align: center;
+  font-size:22px; 
+  font-weight: bold; 
+  width: 12%; 
+
+  color: #555; 
+}
+
+.tableContent{
+  text-align: center;
+  font-size:20px;
+  width: 21.3%;
+
+  color: #777; 
+}
+
+.tableReversed{
+  background-color: #666;
+}
+
+.textReversed_titleWeekday{
+  border-right: 3px solid #b3b3b3;
+  color: #bbb; 
+}
+
+.textReversed_titleDate{
+  color: #fff;
+}
+
+.textReversed_titleSalary{
+  color: #ddd;
+}
+
+.textReversed_subHeader{
+  color: #ddd;
+}
+
+.textReversed_subHeader{
+  color: #ddd;
+}
+
+.textReversed_subTitle{
+  color: #bbb;
+}
+
+.textReversed_content{
+  color: #999;
+}
